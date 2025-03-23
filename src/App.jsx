@@ -2,7 +2,7 @@ import { Routes, Route} from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
-import useLocoScroll from "./hooks/useLocoScroll.jsx";
+import useLocoScroll from "./Pages/useLocoScroll.jsx";
 import Layout from "./Pages/Components/Layout.jsx";
 import Work from "./Pages/Work.jsx";
 import { AnimatePresence } from "framer-motion";
