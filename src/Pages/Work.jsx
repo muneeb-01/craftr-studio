@@ -1,5 +1,5 @@
 import React from 'react'
-import { projectData } from "../../utils/constants"
+import { projectData } from "../utils/constants"
 const work = () => {
   return (
     <div className='w-full min-h-screen flex flex-col xl:py-[7vh] '>
