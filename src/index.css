@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "craftr1";
+  src: url("/Fonts/craftr1.ttf");
+}
+@font-face {
+  font-family: "craftr2";
+  src: url("/Fonts/craftr2.ttf");
+}
+@font-face {
+  font-family: "craftr3";
+  src: url("/Fonts/craftr3.ttf");
+}
+
+:root {
+  --light: #F8F6F1;
+  --dark: #0D0D0D;
+  --craftr1: "craftr1", sans-serif;
+  --craftr2: "craftr2", sans-serif;
+  --craftr3: "craftr3", sans-serif;
+}
+
+body[theme="light"] .section {
+  color: var(--dark);
+}
+
+body[theme="light"] {
+  background-color: var(--light);
+}
+
+body[theme="dark"] .section {
+  color: var(--light);
+}
+
+body[theme="dark"] {
+  background-color: var(--dark);
+}
+
+.craftr1{
+  font-family: var(--craftr1);
+}
+
+.craftr2{
+  font-family: var(--craftr2);
+}
+
+.craftr3{
+  font-family: var(--craftr3);
+}
+
+body {
+  transition: background-color ease-in-out 0.5s;
+}
+
+#crsr {
+  mix-blend-mode: difference;
+  position: absolute;
+}
