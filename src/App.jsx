@@ -1,13 +1,13 @@
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "./Pages/Home/Home";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
+import { Routes, Route} from "react-router-dom";
+import Home from "./Pages/Home/Home.jsx";
+import About from "./pages/About/About.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
 import useLocoScroll from "./hooks/useLocoScroll";
 import Layout from "./Pages/Components/Layout";
-import Work from "./Pages/Work/Work";
+import Work from "./Pages/Work/Work.jsx";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
-import LoadingScreen from "./Pages/Components/LoadingScreen";
+import LoadingScreen from "./Pages/Components/LoadingScreen.jsx";
 const App = () => {
   const location = useLocation();
   useLocoScroll();
