@@ -2,8 +2,8 @@ import { Routes, Route} from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
-import useLocoScroll from "./hooks/useLocoScroll";
-import Layout from "./Pages/Components/Layout";
+import useLocoScroll from "./hooks/useLocoScroll.jsx";
+import Layout from "./Pages/Components/Layout.jsx";
 import Work from "./Pages/Work.jsx";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
@@ -19,7 +19,7 @@ const App = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/work" element={<Work />} />
         </Route>
