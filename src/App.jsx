@@ -1,10 +1,10 @@
 import { Routes, Route} from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
-// import About from "./Pages/About/About.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+import About from "./Pages/About.jsx";
+import Contact from "./Pages/Contact.jsx";
 import useLocoScroll from "./hooks/useLocoScroll";
 import Layout from "./Pages/Components/Layout";
-import Work from "./Pages/Work/Work.jsx";
+import Work from "./Pages/Work.jsx";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import LoadingScreen from "./Pages/Components/LoadingScreen.jsx";
