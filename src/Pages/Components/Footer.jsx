@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='section w-full'>
-        <hr className="border-t border-gray-800 py-4 w-full" />
+        <hr id='line' className="border-t border-gray-800 py-4 w-full" />
         <div className='flex justify-center items-center'>
           <div className='py-[18vh] craftr2'>
         <h1 className='craftr1 font-bold text-center text-xl sm:text-3xl lg:text-4xl py-4'>Craftr</h1>

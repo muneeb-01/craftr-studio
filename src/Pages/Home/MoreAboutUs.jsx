@@ -6,10 +6,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const MoreAboutUs = () => {
   const themeSection = useRef(null);
-  const video = document.getElementById('video');
 
   useEffect(() => {
     const crsr = document.getElementById("crsr");
+    const line = document.getElementById("line");
     const tl  = gsap.timeline({
       scrollTrigger: {
         trigger: themeSection.current,
@@ -22,10 +22,12 @@ const MoreAboutUs = () => {
             "dark"
           );
           crsr.style.backgroundColor = 'white';
+          line.style.borderColor = "#fff";
         },
         onEnterBack: () => {
           document.body.setAttribute("theme", "light");
           crsr.style.backgroundColor = 'black';
+          line.style.borderColor = "#000";
         },
       },
     },'a')

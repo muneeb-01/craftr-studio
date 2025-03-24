@@ -1,5 +1,7 @@
-import React from 'react'
-import { projectData } from "../utils/constants"
+import React from 'react';
+import { projectData } from "../utils/constants";
+import {animate, motion} from "framer-motion";
+
 const work = () => {
   return (
     <div className='w-full min-h-screen flex flex-col xl:py-[7vh] '>
@@ -33,7 +35,7 @@ const Container = ({item,idx})=>{
 const Bigcontainer = ({src})=>{
   return(
     <div className='w-[60vw] h-[22vh] sm:h-[30vh] md:h-[40vh] lg:w-[42.5vw] xl:h-[60vh] flex justify-center items-center bg-[#1B1B1B]'>
-        <div className='h-[62%] rounded-[4px] overflow-hidden w-[75%] '>
+        <div className='h-[62%] origin-bottom rounded-[4px] overflow-hidden w-[75%] '>
           <img src={src} className='w-full h-full' alt="" />
         </div>
     </div>
@@ -43,9 +45,9 @@ const Bigcontainer = ({src})=>{
 const Smallcontainer = ({src})=>{
   return(
     <div className='w-[30vw] h-[22vh] sm:h-[30vh] md:h-[40vh] lg:w-[25vw]  xl:h-[60vh] flex justify-center items-center bg-[#1B1B1B]'>
-      <div className='h-[65%] rounded-[4px] overflow-hidden w-[40%] xl:w-[50%]'>
+      <motion.div className='h-[65%] rounded-[4px] overflow-hidden w-[40%] xl:w-[50%]'>
       <img src={src} className='w-full h-full' alt="" />
-      </div>
+      </motion.div>
     </div>
   )
 }
