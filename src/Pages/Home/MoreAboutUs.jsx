@@ -40,7 +40,7 @@ const MoreAboutUs = () => {
   
 
   return (
-    <div className='section min-h-[70vh] pt-[26vh] w-full flex flex-col'>
+    <div  className='section min-h-[70vh] pt-[26vh] w-full flex flex-col'>
       
         <div className='flex justify-center items-center craftr3 text-[0.72rem] xl:text-[1rem] font-medium'>
         <div className='w-[10%]'><p className='text-nowrap text-center'>01</p></div>

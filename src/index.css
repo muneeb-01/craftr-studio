@@ -12,7 +12,9 @@
   font-family: "craftr3";
   src: url("/Fonts/craftr3.ttf");
 }
-
+html, body {
+  overflow: hidden;
+}
 :root {
   --light: #F8F6F1;
   --dark: #0D0D0D;
