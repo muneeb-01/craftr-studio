@@ -8,7 +8,7 @@ import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import LoadingScreen from "./Pages/Components/LoadingScreen.jsx";
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis/types";
+import Lenis from "@studio-freight/lenis";
 
 const App = () => {
   const location = useLocation();

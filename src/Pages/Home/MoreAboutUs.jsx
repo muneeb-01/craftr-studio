@@ -21,12 +21,11 @@ const MoreAboutUs = () => {
             "theme",
             "dark"
           );
-          crsr.style.backgroundColor = 'white';
           line.style.borderColor = "#fff";
         },
         onEnterBack: () => {
           document.body.setAttribute("theme", "light");
-          crsr.style.backgroundColor = 'black';
+          
           line.style.borderColor = "#000";
         },
       },
