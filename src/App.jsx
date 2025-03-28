@@ -7,7 +7,7 @@ import Work from "./Pages/Work.jsx";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import LoadingScreen from "./Pages/Components/LoadingScreen.jsx";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import { useEffect } from "react";
 
 const App = () => {
