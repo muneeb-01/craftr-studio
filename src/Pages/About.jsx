@@ -13,7 +13,7 @@ const About = () => {
       <div className="flex flex-col 2xl:flex-row craftr3 justify-center items-center w-[80%] h-full">
       <div className="flex justify-center items-center h-[90vh] py-[4vh] 2xl:pt-[16vh] 2xl:w-[50%]">
         <div className="2xl:w-[63%] h-[70vh] 2xl:h-[65vh] ">
-          <img src="/pictures/profile.jpg" className="h-full object-center object-cover grayscale-75" alt="" />
+          <img src="/pictures/profile.webp" className="h-full object-center object-cover grayscale-75" alt="" />
         </div>
       </div>
       <div className="flex text-[0.8rem]  md:text-[1.1rem] flex-col w-full  justify-end h-full items-center xl:w-[50%] xl:h-[70vh]">

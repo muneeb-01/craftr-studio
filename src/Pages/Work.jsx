@@ -36,7 +36,7 @@ const Bigcontainer = ({src})=>{
   return(
     <div className='w-[60vw] h-[22vh] sm:h-[30vh] md:h-[40vh] lg:w-[42.5vw] xl:h-[60vh] flex justify-center items-center bg-[#1B1B1B]'>
         <div className='h-[62%] origin-bottom rounded-[4px] overflow-hidden w-[75%] '>
-          <img src={src} className='w-full h-full' alt="" />
+          <img src={src} className='w-full ' alt="" />
         </div>
     </div>
   )
@@ -46,7 +46,7 @@ const Smallcontainer = ({src})=>{
   return(
     <div className='w-[30vw] h-[22vh] sm:h-[30vh] md:h-[40vh] lg:w-[25vw]  xl:h-[60vh] flex justify-center items-center bg-[#1B1B1B]'>
       <motion.div className='h-[65%] rounded-[4px] overflow-hidden w-[40%] xl:w-[50%]'>
-      <img src={src} className='w-full h-full' alt="" />
+      <img src={src} className='w-full ' alt="" />
       </motion.div>
     </div>
   )
