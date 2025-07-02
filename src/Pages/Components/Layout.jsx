@@ -12,7 +12,8 @@ const Layout = () => {
         <Navbar isMenu={isMenu} setIsMenu={setIsMenu} />
         {!isMenu && (
           <>
-            <Outlet /> <Footer />
+            <Outlet />
+            <Footer />
           </>
         )}
       </div>
