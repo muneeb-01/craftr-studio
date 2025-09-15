@@ -15,6 +15,12 @@
 :root {
   --light: #F8F6F1;
   --dark: #0D0D0D;
+
+  --selection-light: #D1CFC7;
+  --selection-dark: #333333;
+  --selection-text-light: #0D0D0D;
+  --selection-text-dark: #F8F6F1;
+
   --craftr1: "craftr1", sans-serif;
   --craftr2: "craftr2", sans-serif;
   --craftr3: "craftr3", sans-serif;
@@ -34,6 +40,16 @@ body[theme="dark"] .section {
 
 body[theme="dark"] {
   background-color: var(--dark);
+}
+
+body[theme="dark"] ::selection {
+  background: var(--selection-dark);
+  color: var(--selection-text-dark);
+}
+
+body[theme="light"] ::selection {
+  background: var(--selection-light);
+  color: var(--selection-text-light);
 }
 
 .craftr1{
