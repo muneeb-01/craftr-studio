@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+
+/* Hide scrollbar for all elements (including body) */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
 @font-face {
   font-family: "craftr1";
   src: url("/Fonts/craftr1.ttf");
