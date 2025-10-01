@@ -1,7 +1,7 @@
 export const projectData = [
   {
     title: "ELEVATING DIGITAL EXPERIENCES",
-    url: "https://naveed-portfolio-ten.vercel.app/",
+    url: "https://naveedrenders.vercel.app/",
     lanscape: "/projects/naveed-project.PNG",
     potrait: "/projects/naveed-project-potrait.PNG",
   },

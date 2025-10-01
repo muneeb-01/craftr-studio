@@ -1,7 +1,8 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import {gsap} from 'gsap';
 import { useEffect } from 'react';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
+import { Link } from 'react-router-dom';
 gsap.registerPlugin(ScrollTrigger);
 
 const MoreAboutUs = () => {
@@ -55,7 +56,7 @@ const MoreAboutUs = () => {
         <div className='flex justify-center text-nowrap pt-[26vh] items-center craftr3 text-[0.72rem] xl:text-[1rem] font-medium'>
         <div className='w-[10%]'><p className='text-center'>02</p></div>
         <div className='w-[57%] lg:w-[65%]'><p className='text-left xl:pl-[8.5%]'>HIGHLIGHTS</p></div>
-        <div className='w-[33%] lg:w-[25%]'><p className='text-left'>EXPLORE PROJECTS</p></div>
+        <div className='w-[33%] lg:w-[25%]'><Link to={"work"} className='text-left'>EXPLORE PROJECTS</Link></div>
         </div>
         <div className='w-full flex justify-center items-center py-[13vh]'>
           <video id='video' src="/content/video/video.mp4" className='h-[50vh] md:h-full md:w-[50vw] lg:w-[40vw] xl:w-[25vw]' autoPlay loop muted></video>
